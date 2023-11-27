@@ -26,7 +26,7 @@ int main (void){
 	
 	if(operation == '/' && z == 0){
 		printf("Cannot divide by zero \n");
-	} else if (operation != '+' && operation != '-' && operation != '*' & operation != '/'){
+	} else if (operation != '+' && operation != '-' && operation != '*' && operation != '/'){
 	    printf("Wrong operation symbol \n");
 	}
 	
